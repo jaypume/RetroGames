@@ -1,2 +1,2 @@
 [lfs]
-    url = "https://admin:admin@192.168.1.173:9999/"
+    url = "https://admin:admin@127.0.0.1:9999/"
