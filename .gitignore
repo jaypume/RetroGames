@@ -70,3 +70,6 @@
 !*.json
 !*.ini
 !*.xml
+
+# 通用白名单
+!*.gitkeep
