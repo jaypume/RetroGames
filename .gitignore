@@ -3,6 +3,9 @@
 !emulators/
 !emulators/**/
 
+!environment/
+!environment/**/
+
 !hack/
 !hack/**/
 
