@@ -3,6 +3,9 @@
 !emulators/
 !emulators/**/
 
+# !hack/
+# !hack/**/
+
 # LFS 跟踪二进制文件
 !*.3ds
 !*.7z 
@@ -34,3 +37,7 @@
 
 # 缩略图
 !*.png
+
+# 说明文档
+!*.md
+!*.txt

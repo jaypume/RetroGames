@@ -1,0 +1,73 @@
+/LICENSE
+/RetroArch/@ROM/NGC/仙乐传说
+/RetroArch/@ROM/NGC/生化危机 代号维罗妮卡
+/RetroArch/@ROM/NGC/生化危机0
+/RetroArch/@ROM/NGC/生化危机1
+/RetroArch/@ROM/NGC/生化危机4
+/RetroArch/@ROM/NGC/霸天开拓史1
+/RetroArch/@ROM/NGC/霸天开拓史2
+/RetroArch/@ROM/psp/我的妹妹不可能那么可爱 不可能有续作
+
+
+文本：
+csv
+json
+log
+m3u
+txt
+ini
+xml
+
+ROM:---
+3ds
+7z
+bin
+cci
+cdi
+chd
+cso
+gb
+gbc
+gcm
+gcz
+iso
+n64
+nds
+pce
+pcm
+rfz
+rvz
+sfc
+sms
+v64
+vb
+wad
+z64
+zip
+
+不知道是啥,sfc
+msu
+asm
+wav
+
+bml no
+bps no
+ips no
+
+媒体：
+jpg
+png
+mp3 no
+pdf no
+pmp no
+docx
+flv no
+
+
+
+
+没有：
+ttf
+sample
+pack
+
