@@ -1,0 +1,73 @@
+平台,后缀,文本,大小,已提交
+3DO,,,,
+3DS,3ds;cci,,131G,✅
+ATARI2600,7z,,3.1M,✅
+ATARI5200,7z,,1.2M,✅
+ATARI7800,7z,,2.2M,✅
+DC,cdi;chd;bin,m3u,24G,✅
+DC hack,cdi;chd;bin,m3u,58G,✅
+DOS,zip,,2.5G,✅
+FBA ACT hack,zip,,234M,✅
+FBNEO ACT,zip;7z,,1.2G,✅
+FBNEO ACT hack1,zip;7z,,1.7G,✅
+FBNEO ACT hack2,zip;7z,,20M,✅
+FBNEO ACT V,zip;7z,,1.4G,✅
+FBNEO ETC,zip;7z,,238M,✅
+FBNEO ETC V,zip;7z,,294M,✅
+FBNEO FLY,zip;7z,,3.2G,✅
+FBNEO FLY V,zip;7z,,3.7G,✅
+FBNEO FTG,zip;7z,,305M,✅
+FBNEO FTG hack,zip;7z,,45M,✅
+FBNEO RAC,zip;7z,,52M,✅
+FBNEO STG,zip;7z,,63M,✅
+FBNEO STG hack,zip;7z,,841M,✅
+FBNEO STG V,zip;7z,,758M,✅
+FC,zip,,46M,✅
+FC hack,zip,,67M,✅
+FC-HD,zip,,2.1M,✅
+GAME WATCH,zip,,53M,✅
+GB,gb,,34M,✅
+GBA,gba;zip,,2.3G,✅
+GBC,gbc,,292M,✅
+GG,zip,,68M,✅
+LIGHT GUN,zip,,635M,✅
+LYNX,zip,,,✅
+MAME ACT,zip;chd;7z,,138M,✅
+MAME ETC,zip;chd;7z,,174M,✅
+MAME FLY,zip;chd;7z,,292M,✅
+MAME FLY V,zip;chd;7z,,359M,✅
+MAME FTG,zip;chd;7z,,4.7M,✅
+MAME FTG hack,zip;chd;7z,,419M,✅
+MAME RAC,zip;chd;7z,,81M,✅
+MAME STG,zip;chd;7z,,89M,✅
+MAME STG V,zip;chd;7z,,999M,✅
+MD,zip,,109M,✅
+MD hack,zip,,18M,✅
+MD hack(picodrive),zip,,268M,✅
+MD-32X,zip,,67M,✅
+MD-CD,chd,,7.8G,✅
+N64,v64;n64;z64,,1.4G,✅
+NAOMI,chd;zip,,14G,✅
+NDS,nds,,27G,✅
+NEOGEO-CD,chd,,16G,✅
+NGC,rvz;iso,,72G,✅
+NGPC,zip,,47M,✅
+PC-FX,chd;,m3u,26G,✅
+PCE,pce,,43M,✅
+PCE-CD,chd,,18G,✅
+POKE MINI,zip,,2.1M,✅
+PS1,chd;PBP,m3u,22G,✅
+PS1 hack,chd;PBP,m3u,77G,✅
+PS2,chd,m3u,276G,✅
+PS2 hack,chd,m3u,90G,✅
+PSP,iso,,,✅
+SFC,zip,,425M,✅
+SFC hack,zip,,494M,✅
+SFC-MSU1,sfc;pcm;wav;ips;docx,bml;asm;msu;txt;xml;md;json,4.5G,✅
+SMS,sms,,34M,✅
+SS,chd,m3u,148G,✅
+SS plus,chd,m3u,51G,✅
+Virtual Boy,vb,,9.5M,✅
+WII Ware,wad,,1.9G,✅
+WS,zip,,90M,✅
+WSC,zip,,90M,✅

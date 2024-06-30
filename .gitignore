@@ -3,8 +3,8 @@
 !emulators/
 !emulators/**/
 
-# !hack/
-# !hack/**/
+!hack/
+!hack/**/
 
 # LFS 跟踪二进制文件
 !*.3ds
@@ -34,6 +34,8 @@
 !*.zip
 !*.PBP
 
+# CD目录
+!*.m3u
 
 # 缩略图
 !*.png
@@ -41,3 +43,12 @@
 # 说明文档
 !*.md
 !*.txt
+!*.csv
+
+# 脚本
+!*.sh
+!*.py
+
+# 配置文件
+!*.json
+!*.ini

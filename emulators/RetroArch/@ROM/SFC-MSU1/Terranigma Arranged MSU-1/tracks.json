@@ -1,0 +1,62 @@
+{
+    "$schema": "https://raw.githubusercontent.com/qwertymodo/msupcmplusplus/master/configs/schema#",
+    "game": "Terranigma_Arranged",
+    "pack": "Terranigma_Arranged",
+    "output_prefix": "Terranigma_msu1",
+    "tracks": [
+	   { 
+          "track_number": 4,
+          "title": "Boss Battle",
+          "file": "ArrangedOST\\Terranigma - Those Who Stand in the Way (Arranged Verison).flac",
+		  "trim_start": 27330,
+		  "trim_end": 7432341,
+		  "loop": 3166603,
+          "normalization": -20
+      },	  	  	    	
+
+		{ 
+          "track_number": 6,
+          "title": "Light Side Field",
+          "file": "ArrangedOST\\Terranigma - Further into the Wide World (Arranged Version).flac",
+		  "trim_start": 51308,
+		  "trim_end": 6876362,
+		  "loop": 705361,
+          "normalization": -20
+      },
+	  	   	  	  	      { 
+          "track_number": 7,
+          "title": "Zue",
+          "file": "ArrangedOST\\Terranigma - Zue (Arranged Version).flac",
+		  "trim_start": 72545,
+		  "trim_end": 3207682,
+		  "loop": 488981,
+          "normalization": -20
+      },
+					
+					{ 
+          "track_number": 23,
+          "title": "Evergreen (Arranged Verison)",
+          "file": "ArrangedOST\\Terranigma - Evergreen (Arranged Verison).flac",
+		  "trim_start": 27522,
+		  "trim_end": 6469292,
+		  "loop": 776410,
+          "normalization": -20
+      },
+	  	      { 
+          "track_number": 55,
+          "title": "Opening",
+          "file": "ArrangedOST\\Terranigma - Light and Darkness (Arranged Version).flac",
+		  "loop": 6787110,
+          "normalization": -20
+      },
+	  	  	  	  	  	  { 
+          "track_number": 57,
+          "title": "Ending",
+          "file": "ArrangedOST\\Terranigma - The Way Home (Arranged Verison).flac",
+		  "trim_end": 13098960,
+		  "loop": 12486878,
+          "normalization": -20
+      }
+	  ]
+}
+	  
