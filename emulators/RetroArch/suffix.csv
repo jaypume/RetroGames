@@ -1,73 +1,73 @@
-平台,后缀,文本,大小,已提交
-3DO,,,,
-3DS,3ds;cci,,131G,✅
-ATARI2600,7z,,3.1M,✅
-ATARI5200,7z,,1.2M,✅
-ATARI7800,7z,,2.2M,✅
-DC,cdi;chd;bin,m3u,24G,✅
-DC hack,cdi;chd;bin,m3u,58G,✅
-DOS,zip,,2.5G,✅
-FBA ACT hack,zip,,234M,✅
-FBNEO ACT,zip;7z,,1.2G,✅
-FBNEO ACT hack1,zip;7z,,1.7G,✅
-FBNEO ACT hack2,zip;7z,,20M,✅
-FBNEO ACT V,zip;7z,,1.4G,✅
-FBNEO ETC,zip;7z,,238M,✅
-FBNEO ETC V,zip;7z,,294M,✅
-FBNEO FLY,zip;7z,,3.2G,✅
-FBNEO FLY V,zip;7z,,3.7G,✅
-FBNEO FTG,zip;7z,,305M,✅
-FBNEO FTG hack,zip;7z,,45M,✅
-FBNEO RAC,zip;7z,,52M,✅
-FBNEO STG,zip;7z,,63M,✅
-FBNEO STG hack,zip;7z,,841M,✅
-FBNEO STG V,zip;7z,,758M,✅
-FC,zip,,46M,✅
-FC hack,zip,,67M,✅
-FC-HD,zip,,2.1M,✅
-GAME WATCH,zip,,53M,✅
-GB,gb,,34M,✅
-GBA,gba;zip,,2.3G,✅
-GBC,gbc,,292M,✅
-GG,zip,,68M,✅
-LIGHT GUN,zip,,635M,✅
-LYNX,zip,,,✅
-MAME ACT,zip;chd;7z,,138M,✅
-MAME ETC,zip;chd;7z,,174M,✅
-MAME FLY,zip;chd;7z,,292M,✅
-MAME FLY V,zip;chd;7z,,359M,✅
-MAME FTG,zip;chd;7z,,4.7M,✅
-MAME FTG hack,zip;chd;7z,,419M,✅
-MAME RAC,zip;chd;7z,,81M,✅
-MAME STG,zip;chd;7z,,89M,✅
-MAME STG V,zip;chd;7z,,999M,✅
-MD,zip,,109M,✅
-MD hack,zip,,18M,✅
-MD hack(picodrive),zip,,268M,✅
-MD-32X,zip,,67M,✅
-MD-CD,chd,,7.8G,✅
-N64,v64;n64;z64,,1.4G,✅
-NAOMI,chd;zip,,14G,✅
-NDS,nds,,27G,✅
-NEOGEO-CD,chd,,16G,✅
-NGC,rvz;iso,,72G,✅
-NGPC,zip,,47M,✅
-PC-FX,chd;,m3u,26G,✅
-PCE,pce,,43M,✅
-PCE-CD,chd,,18G,✅
-POKE MINI,zip,,2.1M,✅
-PS1,chd;PBP,m3u,22G,✅
-PS1 hack,chd;PBP,m3u,77G,✅
-PS2,chd,m3u,276G,✅
-PS2 hack,chd,m3u,90G,✅
-PSP,iso,,,✅
-SFC,zip,,425M,✅
-SFC hack,zip,,494M,✅
-SFC-MSU1,sfc;pcm;wav;ips;docx,bml;asm;msu;txt;xml;md;json,4.5G,✅
-SMS,sms,,34M,✅
-SS,chd,m3u,148G,✅
-SS plus,chd,m3u,51G,✅
-Virtual Boy,vb,,9.5M,✅
-WII Ware,wad,,1.9G,✅
-WS,zip,,90M,✅
-WSC,zip,,90M,✅
+平台,后缀,文本,大小,Size (M),已提交
+3DO,,,,,
+3DS,3ds;cci,,131G,131000,✅
+ATARI2600,7z,,3.1M,3,✅
+ATARI5200,7z,,1.2M,1,✅
+ATARI7800,7z,,2.2M,2,✅
+DC,cdi;chd;bin,m3u,24G,24000,✅
+DC hack,cdi;chd;bin,m3u,58G,58000,✅
+DOS,zip,,2.5G,2500,✅
+FBA ACT hack,zip,,234M,234,✅
+FBNEO ACT,zip;7z,,1.2G,1200,✅
+FBNEO ACT hack1,zip;7z,,1.7G,1700,✅
+FBNEO ACT hack2,zip;7z,,20M,20,✅
+FBNEO ACT V,zip;7z,,1.4G,1400,✅
+FBNEO ETC,zip;7z,,238M,238,✅
+FBNEO ETC V,zip;7z,,294M,294,✅
+FBNEO FLY,zip;7z,,3.2G,3200,✅
+FBNEO FLY V,zip;7z,,3.7G,3700,✅
+FBNEO FTG,zip;7z,,305M,305,✅
+FBNEO FTG hack,zip;7z,,45M,45,✅
+FBNEO RAC,zip;7z,,52M,52,✅
+FBNEO STG,zip;7z,,63M,63,✅
+FBNEO STG hack,zip;7z,,841M,841,✅
+FBNEO STG V,zip;7z,,758M,758,✅
+FC,zip,,46M,46,✅
+FC hack,zip,,67M,67,✅
+FC-HD,zip,,2.1M,2,✅
+GAME WATCH,zip,,53M,53,✅
+GB,gb,,34M,34,✅
+GBA,gba;zip,,2.3G,2300,✅
+GBC,gbc,,292M,292,✅
+GG,zip,,68M,68,✅
+LIGHT GUN,zip,,635M,635,✅
+LYNX,zip,,500M,500,✅?
+MAME ACT,zip;chd;7z,,138M,138,✅
+MAME ETC,zip;chd;7z,,174M,174,✅
+MAME FLY,zip;chd;7z,,292M,292,✅
+MAME FLY V,zip;chd;7z,,359M,359,✅
+MAME FTG,zip;chd;7z,,4.7M,4,✅
+MAME FTG hack,zip;chd;7z,,419M,419,✅
+MAME RAC,zip;chd;7z,,81M,81,✅
+MAME STG,zip;chd;7z,,89M,89,✅
+MAME STG V,zip;chd;7z,,999M,999,✅
+MD,zip,,109M,109,✅
+MD hack,zip,,18M,18,✅
+MD hack(picodrive),zip,,268M,268,✅
+MD-32X,zip,,67M,67,✅
+MD-CD,chd,,7.8G,7800,✅
+N64,v64;n64;z64,,1.4G,1400,✅
+NAOMI,chd;zip,,14G,14000,✅
+NDS,nds,,27G,27000,✅
+NEOGEO-CD,chd,,16G,16000,✅
+NGC,rvz;iso,,72G,72000,✅
+NGPC,zip,,47M,47,✅
+PC-FX,chd;,m3u,26G,26000,✅
+PCE,pce,,43M,43,✅
+PCE-CD,chd,,18G,18000,✅
+POKE MINI,zip,,2.1M,2,✅
+PS1,chd;PBP,m3u,22G,22000,✅
+PS1 hack,chd;PBP,m3u,77G,77000,✅
+PS2,chd,m3u,276G,276000,✅
+PS2 hack,chd,m3u,90G,90000,✅
+PSP,iso,,200G,200000,✅?
+SFC,zip,,425M,425,✅
+SFC hack,zip,,494M,494,✅
+SFC-MSU1,sfc;pcm;wav;ips;docx,bml;asm;msu;txt;xml;md;json,4.5G,4500,✅
+SMS,sms,,34M,34,✅
+SS,chd,m3u,148G,148000,✅
+SS plus,chd,m3u,51G,51000,✅
+Virtual Boy,vb,,9.5M,9,✅
+WII Ware,wad,,1.9G,1900,✅
+WS,zip,,90M,90,✅
+WSC,zip,,90M,90,✅

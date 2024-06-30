@@ -1,0 +1,53 @@
+emulators/RetroArch/@ROM/ATARI2600
+emulators/RetroArch/@ROM/ATARI5200
+emulators/RetroArch/@ROM/ATARI7800
+emulators/RetroArch/@ROM/DOS
+emulators/RetroArch/@ROM/FBA ACT hack
+emulators/RetroArch/@ROM/FBNEO ACT
+emulators/RetroArch/@ROM/FBNEO ACT hack1
+emulators/RetroArch/@ROM/FBNEO ACT hack2
+emulators/RetroArch/@ROM/FBNEO ACT V
+emulators/RetroArch/@ROM/FBNEO ETC
+emulators/RetroArch/@ROM/FBNEO ETC V
+emulators/RetroArch/@ROM/FBNEO FLY
+emulators/RetroArch/@ROM/FBNEO FLY V
+emulators/RetroArch/@ROM/FBNEO FTG
+emulators/RetroArch/@ROM/FBNEO FTG hack
+emulators/RetroArch/@ROM/FBNEO RAC
+emulators/RetroArch/@ROM/FBNEO STG
+emulators/RetroArch/@ROM/FBNEO STG hack
+emulators/RetroArch/@ROM/FBNEO STG V
+emulators/RetroArch/@ROM/FC
+emulators/RetroArch/@ROM/FC hack
+emulators/RetroArch/@ROM/FC-HD
+emulators/RetroArch/@ROM/GAME WATCH
+emulators/RetroArch/@ROM/GB
+emulators/RetroArch/@ROM/GBA
+emulators/RetroArch/@ROM/GBC
+emulators/RetroArch/@ROM/GG
+emulators/RetroArch/@ROM/LIGHT GUN
+emulators/RetroArch/@ROM/LYNX
+emulators/RetroArch/@ROM/MAME ACT
+emulators/RetroArch/@ROM/MAME ETC
+emulators/RetroArch/@ROM/MAME FLY
+emulators/RetroArch/@ROM/MAME FLY V
+emulators/RetroArch/@ROM/MAME FTG
+emulators/RetroArch/@ROM/MAME FTG hack
+emulators/RetroArch/@ROM/MAME RAC
+emulators/RetroArch/@ROM/MAME STG
+emulators/RetroArch/@ROM/MAME STG V
+emulators/RetroArch/@ROM/MD
+emulators/RetroArch/@ROM/MD hack
+emulators/RetroArch/@ROM/MD hack(picodrive)
+emulators/RetroArch/@ROM/MD-32X
+emulators/RetroArch/@ROM/N64
+emulators/RetroArch/@ROM/NGPC
+emulators/RetroArch/@ROM/PCE
+emulators/RetroArch/@ROM/POKE MINI
+emulators/RetroArch/@ROM/SFC
+emulators/RetroArch/@ROM/SFC hack
+emulators/RetroArch/@ROM/SMS
+emulators/RetroArch/@ROM/Virtual Boy
+emulators/RetroArch/@ROM/WII Ware
+emulators/RetroArch/@ROM/WS
+emulators/RetroArch/@ROM/WSC

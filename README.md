@@ -11,7 +11,7 @@
     - Sony PSV
     - Windows
 - 添加游戏后，脚本自动更新游戏列表和缩略图。
-- 基于git-annex实现同一份ROM只保留单份拷贝。
+- 基于git-lfs实现同一份ROM只保留单份拷贝。
 - Switch自动更新拼音目录（因为Switch不支持中文名怀旧游戏文件）
 
 ## 为什么要做这个？
@@ -22,6 +22,49 @@
 
 
 
+## update 2024.07.01
+为什么暂停 git lfs的维护？原因有2点
+后续如果git lfs能优化这两点的话，那么可以迁移到lfs
+1. git lfs pull 后，本地会占用2份拷贝。磁盘空间利用率低
+```
+i@PLUS-1215U MINGW64 /h/RetroGames (main)
+$ du -hd1
+27G     ./.git
+28G     ./emulators
+4.0K    ./environment
+1.9M    ./hack
+55G     .
+```
+
+
+2. git lfs pull 读写速率不能达到满速
+* 实测SSD ：       Downloading LFS objects: 100% (6507/6507), 29 GB | 44 MB/s
+* 实测三星512G白卡：Downloading LFS objects:  14% (899/6507), 3.7 GB | 4.6 MB/s
+
+
+对于文件数量巨大的，git clone也需要花上约17分钟。
+```
+$ date && GIT_LFS_SKIP_SMUDGE=1 git clone https://github.com/jaypume/RetroGames.git
+2024年07月 1日  0:36:39
+Cloning into 'RetroGames'...
+remote: Enumerating objects: 18848, done.
+remote: Counting objects: 100% (18848/18848), done.
+remote: Compressing objects: 100% (18490/18490), done.
+remote: Total 18848 (delta 215), reused 18808 (delta 178), pack-reused 0
+Receiving objects: 100% (18848/18848), 12.15 MiB | 1.59 MiB/s, done.
+Resolving deltas: 100% (215/215), done.
+Updating files: 100% (18383/18383), done.
+
+i@PLUS-1215U MINGW64 /f
+$ date
+2024年07月 1日  0:53:29
+```
+
+
+相比git annex的优势：
+* 不依赖于symlink，跨平台支持（windows / linux / mac）
+* github等平台集成
+* 利用文件的hash，能有效去重（git annex 有待确认？）
 
 
 ## 使用教程
@@ -33,20 +76,46 @@
 https://buildbot.libretro.com/stable/
 ```
 
-1. 下载游戏包，解压到'.git/annex/objects/'
+1. 下载游戏包，解压到'.git/lfs'
+
+2. 启动lfs-testing-server
+
+参考这里：
+https://github.com/git-lfs/lfs-test-server
+
+run.sh脚本如下：
 
 ```
-由于游戏ROM涉及版权，暂时无法放在这里。
+#!/bin/bash
+
+set -eu
+set -o pipefail
+
+LFS_LISTEN="tcp://:9999"
+LFS_HOST="127.0.0.1:9999"
+LFS_CONTENTPATH="content"
+LFS_ADMINUSER="admin"
+LFS_ADMINPASS="admin"
+LFS_CERT="mine.crt"
+LFS_KEY="mine.key"
+LFS_SCHEME="https"
+
+export LFS_LISTEN LFS_HOST LFS_CONTENTPATH LFS_ADMINUSER LFS_ADMINPASS LFS_CERT LFS_KEY LFS_SCHEME
+
+#lfs-test-server.exe
+ /c/Users/i/go/bin/lfs-test-server.exe
 ```
 
-2. 拷贝到对应机器SD卡
+3. 配置需要下载的路径
 ```
-rsync -atPL './emulators/RetroArch/Windows/RetroArch.Test'  '/Volumes/<your drive>/RetroArch.Test'
+git config http.sslverify false
+git config lfs.fetchinclude "$(paste -sd ',' emulators/RetroArch/romlist/G030.txt)"
+git config lfs.fetchinclude "$(paste -sd ',' rom.txt)"
 ```
-`-aL`表示会把符号链接的原始内容进行拷贝，而不是符号链接本身。
-
-rsync -ratPl '/Volumes/RetroGames/test'  '/Volumes/RetroGames/'
-
+4. pull
+```
+git lfs pull
+```
 
 ## 可以实现什么样的效果？(TODO)
 ### Windows
