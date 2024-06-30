@@ -1,0 +1,28 @@
+board region=ntsc
+  rom name=tmnt4_msu1.sfc size=0x100000
+    map address=00-7d,80-ff:8000-ffff mask=0x8000
+    map address=40-6f,c0-ef:0000-7fff mask=0x8000
+
+  msu1
+    map id=io address=00-3f,80-bf:2000-2007
+    rom name=tmnt4_msu1.msu
+    track number=3 name=tmnt4_msu1-3.pcm
+    track number=9 name=tmnt4_msu1-9.pcm
+    track number=12 name=tmnt4_msu1-12.pcm
+    track number=15 name=tmnt4_msu1-15.pcm
+    track number=18 name=tmnt4_msu1-18.pcm
+    track number=21 name=tmnt4_msu1-21.pcm
+    track number=27 name=tmnt4_msu1-27.pcm
+    track number=42 name=tmnt4_msu1-42.pcm
+    track number=45 name=tmnt4_msu1-45.pcm
+    track number=57 name=tmnt4_msu1-57.pcm
+    track number=60 name=tmnt4_msu1-60.pcm
+    track number=69 name=tmnt4_msu1-69.pcm
+    track number=232 name=tmnt4_msu1-232.pcm
+    track number=235 name=tmnt4_msu1-235.pcm
+    track number=244 name=tmnt4_msu1-244.pcm
+    track number=250 name=tmnt4_msu1-250.pcm
+    track number=253 name=tmnt4_msu1-253.pcm
+
+information
+  title: tmnt4_msu1

@@ -1,0 +1,61 @@
+cartridge region=NTSC
+  rom name=cdx-msu1.sfc size=0x200000
+  map id=rom address=00-7f,80-ff:8000-ffff mask=0x8000
+  msu1
+    map id=io address=00-3f,80-bf:2000-2007
+    rom name=cdx-msu1.msu
+    track number=1 name=cdx-msu1-1.pcm
+    track number=3 name=cdx-msu1-3.pcm
+    track number=5 name=cdx-msu1-5.pcm
+    track number=7 name=cdx-msu1-7.pcm
+    track number=9 name=cdx-msu1-9.pcm
+    track number=11 name=cdx-msu1-11.pcm
+    track number=13 name=cdx-msu1-13.pcm
+    track number=15 name=cdx-msu1-15.pcm
+    track number=17 name=cdx-msu1-17.pcm
+    track number=19 name=cdx-msu1-19.pcm
+    track number=21 name=cdx-msu1-21.pcm
+    track number=23 name=cdx-msu1-23.pcm
+    track number=25 name=cdx-msu1-25.pcm
+    track number=27 name=cdx-msu1-27.pcm
+    track number=29 name=cdx-msu1-29.pcm
+    track number=31 name=cdx-msu1-31.pcm
+    track number=33 name=cdx-msu1-33.pcm
+    track number=35 name=cdx-msu1-35.pcm
+    track number=251 name=cdx-msu1-251.pcm
+    track number=253 name=cdx-msu1-253.pcm
+    track number=255 name=cdx-msu1-255.pcm
+
+board region=ntsc
+  rom name=cdx-msu1.sfc size=0x200000
+    map address=00-7d,80-ff:8000-ffff mask=0x8000
+    map address=40-6f,c0-ef:0000-7fff mask=0x8000
+  msu1
+    map address=00-3f,80-bf:2000-2007
+    rom name=cdx-msu1.msu
+    track number=1 name=cdx-msu1-1.pcm
+    track number=3 name=cdx-msu1-3.pcm
+    track number=5 name=cdx-msu1-5.pcm
+    track number=7 name=cdx-msu1-7.pcm
+    track number=9 name=cdx-msu1-9.pcm
+    track number=11 name=cdx-msu1-11.pcm
+    track number=13 name=cdx-msu1-13.pcm
+    track number=15 name=cdx-msu1-15.pcm
+    track number=17 name=cdx-msu1-17.pcm
+    track number=19 name=cdx-msu1-19.pcm
+    track number=21 name=cdx-msu1-21.pcm
+    track number=23 name=cdx-msu1-23.pcm
+    track number=25 name=cdx-msu1-25.pcm
+    track number=27 name=cdx-msu1-27.pcm
+    track number=29 name=cdx-msu1-29.pcm
+    track number=31 name=cdx-msu1-31.pcm
+    track number=33 name=cdx-msu1-33.pcm
+    track number=35 name=cdx-msu1-35.pcm
+    track number=251 name=cdx-msu1-251.pcm
+    track number=253 name=cdx-msu1-253.pcm
+    track number=255 name=cdx-msu1-255.pcm
+
+information
+  region: NTSC
+  title:  zip
+  sha256: 90499c240cd68d2cc882155f9e5856c6caced440e1b3f94bedb3c4b8d9fc0c71
